@@ -1,0 +1,27 @@
+{
+  "version": "6",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1715593510662,
+      "tag": "0000_black_the_captain",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1715593579606,
+      "tag": "0001_plain_vision",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1715603921857,
+      "tag": "0002_chemical_gamma_corps",
+      "breakpoints": true
+    }
+  ]
+}

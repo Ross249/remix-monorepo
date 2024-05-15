@@ -1,0 +1,1 @@
+ALTER TABLE "todos" ALTER COLUMN "text" SET DATA TYPE text;
