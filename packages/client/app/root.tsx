@@ -6,6 +6,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
+// eslint-disable-next-line import/no-unresolved
 import stylesheet from "~/tailwind.css?url";
 
 export const links: LinksFunction = () => [
