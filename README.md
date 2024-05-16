@@ -15,8 +15,29 @@
 pnpm install
 ```
 
-create a env file, add and fill env variables below
+move to packages folder and create a shared folder for reserve env file
 
 ```
+cd packages && mkdir shared
+```
+
+fill variables in the env file
 
 ```
+DATABASE_URL='your database url'
+SERVER_PORT=
+```
+
+start client or server
+
+```
+cd packages/client && pnpm run dev
+cd packages/server && pnpm run dev
+```
+
+## ToDos
+
+- [ ] docker deploy
+- [ ] decent file paths for shared files and start project
+- [ ] tsconfig and eslint hierarchy
+- [ ] examples error handlers
